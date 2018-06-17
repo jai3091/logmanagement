@@ -5,7 +5,7 @@ Linux Environment:
 
 Softwares Required: Bash shell, Docker Docker Compose
 
-1. Execute the shell script with following command: /bin/bash ./build_log_management.sh
+1. Execute the shell script with following command: /bin/bash build_log_management.sh
 
 2. http://localhost will display the custom landing page of Nginx
 
