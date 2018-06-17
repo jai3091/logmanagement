@@ -13,6 +13,8 @@ Softwares Required: Bash shell, Docker Docker Compose
 
 4. http://localhost:9200/index_name/_search?pretty=true will display the values indexed in elastic search index
 
+5. To stop the container execute docker-compose down from root location to stop the containers
+
 Non Linux Environment
 
 Softwares Required: Docker Docker Compose
@@ -30,3 +32,5 @@ Softwares Required: Docker Docker Compose
 6. http://localhost:9200/_cat/indices?v will display the index created on elastic search
 
 7. http://localhost:9200/index_name/_search?pretty=true will display the values indexed in elastic search index
+
+8. To stop the container execute docker-compose down from root location to stop the containers
