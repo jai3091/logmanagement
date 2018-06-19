@@ -15,6 +15,7 @@ set_env(){
 build_docker_images (){
   echo -e "\e[34mINFO :$LINENO: Building nginx docker image with custom landing page \e[0m";
   cd ./nginx
+  mkdir -p honestbee_log
   docker build -t honestbee_nginx:1 .
   cd ../fluentd
   echo -e "\e[34mINFO :$LINENO: Building fluentd docker image with required configuration \e[0m";
