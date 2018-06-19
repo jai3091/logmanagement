@@ -21,7 +21,7 @@ Softwares Required: Docker Docker Compose
 
 1. Checkout the code
 
-2. Go to nginx directory and execute : docker build -t honestbee_nginx:1 . to build nginx image
+2. Go to nginx directory, create a directory called honestbee_log inside nginx directory and execute : docker build -t honestbee_nginx:1 . to build nginx image
 
 3. Go to fluentd directory and execute: docker build -t honestbee_fluentd:1 . to build fluentd image
 
